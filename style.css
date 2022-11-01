@@ -1,0 +1,42 @@
+/*body 400px içinde olucak üstten ve alttan ortada*/
+body {
+    display: flex;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid  ;
+    height: 650px;
+    min-width: 550px;
+    margin: 100px 500px;
+}
+/*container border olucak solid*/
+.container {
+    min-width: 400px;
+    width: 60%;
+    padding: 50 px 20 px 30 px 20 px;   
+    
+}
+.title {
+    font-size: 25px;
+    color: blueviolet;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.head{
+    font-size: 10px;
+}
+.inbox{
+    width: 100%;
+    margin-bottom: 20px ;
+}
+/*send buton send olucak*/
+.send_button{
+    height: 25px;
+    width: 50px;
+    font-size: 10px;        
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: blueviolet;
+    border: none;   
+}
